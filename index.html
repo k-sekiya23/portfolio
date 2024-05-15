@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K.Sekiya Portfolio</title>
+
+  <!-- aos読み込み -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- リセットCSS読み込み -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"/>
+
+  <!-- cssファイル読み込み -->
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="hdr-wrapper">
+      <nav class="hdr-nav">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="index.html#skills">skills</a></li>
+          <li><a href="products.html">products</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="sp-menu">
+      <span class="material-icons" id="open">menu</span>
+    </div>
+  </div>
+  </header>
+
+  <div class="overlay">
+    <span class="material-icons" id="close">close</span>
+    <nav>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="index.html#skills">skills</a></li>
+        <li><a href="products.html">products</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <section class="main-visual">
+    <div class="main-text">
+      <h1 class="text1" data-aos="fade-right" data-aos-offset="15"  data-aos-duration="1500">K.Sekiya</h1>
+      <h1 class="text2" data-aos="fade-left" data-aos-offset="15"  data-aos-duration="1500"
+      data-aos-delay="800">Portfolio</h1>
+    </div>
+  </section>
+
+  <main>
+    <section id="skills" class="wrapper anchor">
+      <h2 class="section-title" data-aos="fade-down" data-aos-offset="5"  data-aos-duration="1000">skills</h2>
+
+      <div class="skills-items">
+        <div class="skills-item" data-aos="fade-up" data-aos-offset="10"  data-aos-duration="1700">
+          <img src="img/html_logo.svg" alt="HTMLロゴ">
+          <h4>HTML5</h4>
+          <p>Webサイトを一から構築するための、HTMLコーディングが可能です。使用しているエディタはVisual Studio Codeです。</p>
+        </div>
+
+        <div class="skills-item" data-aos="fade-up" data-aos-offset="10"  data-aos-duration="1700" data-aos-delay="300">
+          <img src="img/css_logo.svg" alt="CSSロゴ">
+          <h4>CSS</h4>
+          <p>Webサイトの見た目を調整するCSSの基本的なコーディングが可能です。</p>
+        </div>
+
+        <div class="skills-item" data-aos="fade-up" data-aos-offset="10"  data-aos-duration="1700" data-aos-delay="600">
+          <img src="img/JavaScript_logo.svg" alt="JavaScriptロゴ">
+          <h4>JavaScript</h4>
+          <p>タブメニュー・ハンバーガーメニューといった、Webサイトに動きをつけるための簡単なDOM操作が可能です。</p>
+        </div>
+
+        <div class="skills-item"data-aos="fade-up" data-aos-offset="10"  data-aos-duration="1700" data-aos-delay="900">
+          <img src="img/responsive.png" alt="HTMLロゴ">
+          <h4>レスポンシブ対応
+          </h4>
+          <p>レスポンシブ対応を意識したデザインの作成、コーディングが可能です。</p>
+        </div>
+
+        <div class="skills-item" data-aos="fade-up" data-aos-offset="10"  data-aos-duration="1700" data-aos-delay="1200">
+          <img src="img/github-mark.svg" alt="GitHubロゴ">
+          <h4>GitHub</h4>
+          <p>リポジトリの作成・公開・更新・削除といった基本操作が可能です。</p><br>
+          <p>
+            <a href="https://github.com/k-sekiya23">
+              アカウントはこちら<span>　➡</span>
+            </a>
+          </p>
+        </div>
+
+        <div class="skills-item" data-aos="fade-up" data-aos-offset="10"  data-aos-duration="1700" data-aos-delay="1500">
+          <img src="img/up.png" alt="HTMLロゴ">
+          <h4>Webサイト公開
+          </h4>
+          <p>ドメインの取得からFTPソフトを使用したWebサイトの公開など一連の流れを経験。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="wrapper">
+      <h2 class="section-title" data-aos="fade-down" data-aos-offset="5"  data-aos-duration="1000">products</h2>
+
+      <div class="web-products" data-aos="fade-up" data-aos-offset="10"  data-aos-duration="1700">
+        <h3 class="section-subtitle">Webサイト制作</h3>
+        <div class="web-products-items">
+          <div class="web-products-item">
+            <a href="">
+              <img src="" alt="サイトイメージ">
+            </a>
+            <h4>ポートフォリオサイト</h4>
+            <p class="charge_small">HTML / CSS / JavaScript</p>
+          </div>
+
+          <div class="web-products-item">
+            <a href="https://k-sekiya23.github.io/mitsubachi-mw/">
+              <img src="img/mitubati-mw.png" alt="サイトイメージ">
+            </a>
+            <h4>出張型助産院紹介サイト</h4>
+            <p class="charge_small">HTML / CSS / JavaScript</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="web-products" data-aos="fade-up" data-aos-offset="10"  data-aos-duration="1700" data-aos-delay="500">
+        <h3 class="section-subtitle">模写コーディング</h3>
+        <div class="web-products-items">
+          <div class="web-products-item">
+            <a href="">
+              <img src="img/mosha-bicycle.png" alt="サイトイメージ">
+            </a>
+            <h4>自転車紹介サイト</h4>
+            <p class="charge_small">HTML / CSS / AOS.js</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="more-btn" data-aos="fade-up" data-aos-offset="10"  data-aos-duration="1700">
+      <a href="products.html"><h3 class="btn-text">more</h3></a>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+
+  <footer class="footer">
+    <p> © 2024 K.Sekiya. </p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
+</html>

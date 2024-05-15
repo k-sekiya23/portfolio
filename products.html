@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K.Sekiya Portfolio</title>
+
+  <!-- aos読み込み -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- リセットCSS読み込み -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"/>
+
+  <!-- cssファイル読み込み -->
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="hdr-wrapper">
+      <nav class="hdr-nav">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="index.html#skills">skills</a></li>
+          <li><a href="products.html">products</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="sp-menu">
+      <span class="material-icons" id="open">menu</span>
+    </div>
+  </div>
+  </header>
+
+  <div class="overlay">
+    <span class="material-icons" id="close">close</span>
+    <nav>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="index.html#skills">skills</a></li>
+        <li><a href="products.html">products</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+    <div class="wrapper">
+
+      <h2 class="section-title" data-aos="fade-down" data-aos-offset="5"  data-aos-duration="1000">products</h2>
+
+      <ul class="menu" data-aos="fade-up" data-aos-offset="10"  data-aos-duration="1500">
+        <li><a href="#" class="active" data-id="about">Webサイト制作</a></li>
+        <li><a href="#" data-id="service">模写コーディング
+        </a></li>
+      </ul>
+
+    <!-- Webサイト作成紹介タブ -->
+      <section class="content active" id="about" >
+        <h3 class="content-comment" data-aos="fade-up" data-aos-offset="15"  data-aos-duration="2000">
+          自身でHTML,CSSコーディングを一から行いました。サイトに動きをつけるため、JavaScriptを用いてタブメニューやハンバーガーメニューを実装。出張型助産院紹介サイトについては、知人より独立に際し、Webサイトを作ってほしいと相談を受け作成致しました。
+        </h3>
+
+        <div class="products-item" data-aos="fade-up" data-aos-offset="15"  data-aos-duration="2000">
+          <a href="" target="_blank" >
+            <img src="img/mosha-bicycle.png" alt="サイトイメージ">
+          </a>
+          <h4>ポートフォリオサイト<br><a href="" target="_blank" rel="noopener noreferrer" class="site-url">（）</a></h4>
+          <p class="charge_small">HTML / CSS / JavaScript</p>
+          <p class="item-comment">本ポートフォリオサイトです。今までの制作物をまとめました。<br>
+          現在、自身が持てるHTML・CSS・JavaScriptの技術を可能な限り用いてサイト作成を行いました。
+          </p>
+        </div>
+
+        <div class="products-item" data-aos="fade-up" data-aos-offset="10"  data-aos-duration="2000">
+          <a href="https://k-sekiya23.github.io/mitsubachi-mw/index.html" target="_blank" >
+            <img src="img/mitubati-mw.png" alt="サイトイメージ">
+          </a>
+          <h4>出張型助産院紹介サイト<br><a href="https://k-sekiya23.github.io/mitsubachi-mw/index.html" target="_blank" rel="noopener noreferrer" class="site-url">（https://k-sekiya23.github.io/mitsubachi-mw/index.html）</a></h4>
+          <p class="charge_small">HTML / CSS / JavaScript</p>
+          <p class="item-comment">クライアントと打ち合わせをしながら希望を聴取し、デザインやレイアウトを決定してコーデイングを行いました。<br>
+          5月末に最終打ち合わせを行いサイトを公開予定です。</p>
+        </div>
+      </section>
+
+    <!-- 模写コーディング紹介タブ -->
+      <section class="content" id="service">
+        <h3 class="content-comment">
+          コーデイング技術向上の為、（<a href="https://code-jump.com/coding-recommend/" target="_blank" rel="noopener noreferrer" class="site-url">https://code-jump.com/coding-recommend/</a>）を参考に模写コーディングを行い、自身でアニメーションライブラリの「AOS.js」を使用しアレンジを加えて作成致しました。<br>
+          作成したWebサイトはGitHubにのみ公開しております。
+        </h3>
+
+        <div class="products-item">
+          <a href="https://k-sekiya23.github.io/mosha-bicycle/" target="_blank" >
+            <img src="img/mosha-bicycle.png" alt="サイトイメージ">
+          </a>
+          <h4>自転車紹介サイト<br><a href="https://k-sekiya23.github.io/mosha-bicycle/" target="_blank" rel="noopener noreferrer" class="site-url">（https://k-sekiya23.github.io/mosha-bicycle/）</a></h4>
+          <p class="charge_small">HTML / CSS / AOS.js</p>
+          <p class="item-comment"></p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+
+  <footer class="footer">
+    <p> © 2024 K.Sekiya. </p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
