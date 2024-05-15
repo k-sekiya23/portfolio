@@ -132,7 +132,7 @@ nav {
   background-image: linear-gradient(#14BAF8, #0089D4);
   position:relative;
   top: 80px;
-  margin: 0 auto 80px;
+  margin: 0 auto ;
 }
 
 .main-text {
@@ -153,6 +153,42 @@ nav {
 
 .text2{
   text-align: right;
+}
+
+.slideinLeft {
+  animation: slideinLeft  1.5s 1;
+}
+
+.slideinRight {
+  animation: slideinRight 3s 1;
+}
+
+@keyframes slideinLeft {
+  0% {
+    opacity: 0;
+  }  
+  30% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  90% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideinRight {
+  0% {
+    opacity: 0;
+  }  
+  30% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  90% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -189,7 +225,7 @@ main {
   max-width: 960px;
   padding: 0 4%;
   text-align: center;
-  margin:0 auto 80px;
+  margin:0 auto ;
 }
 
 /* ページ遷移時の位置調整 */
@@ -210,7 +246,7 @@ main {
   font-weight: bold;
   text-align: center;
   border-bottom: 1px solid #383e45;
-  margin-bottom: 60px;
+  margin: 80px 0 60px;
 }
 
 .skills-items {
@@ -285,14 +321,14 @@ main {
 }
 
 .section-subtitle {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   font-size: 1.6rem;
   font-weight: 400;
   color: #1595DC;
 }
 
 .web-products {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .web-products-item {
